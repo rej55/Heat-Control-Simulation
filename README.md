@@ -1,9 +1,7 @@
 # Heat-Control-Simulation
 This program is a 2D heat control simulator based on boundary control of heat difffusion equation.
 
-$$
-\frac{\partial T}{\partial t} = \kappa\left(\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2}\right)
-$$
+![diff_eq](./img/diff_eq.png)
 
 ## Simulation Flow
 1. Space discretization of heat difffusion equation
