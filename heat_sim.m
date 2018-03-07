@@ -98,13 +98,3 @@ for i = 1:10:length(t)
     pause(0.01)
 end
 
-
-%% ƒrƒfƒI‘‚«‚İ
-%{
-v = VideoWriter('heat_sim.mp4', 'MPEG-4');
-open(v);
-for i = 1:10:length(t)
-writeVideo(v, F(i));
-end
-close(v);
-%}
